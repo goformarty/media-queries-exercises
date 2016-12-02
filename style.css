@@ -47,17 +47,18 @@ header {
 	padding: 20px;
 }
 
-.right p {
-	padding-bottom: 30px;
-}
-
 .right hr {
 	width: 30px;
 	height: 2px;
-	color: #fff;
+	background-color: #fff;
 	border: none;
+	margin: 0;
+
 }
 
 footer {
 	clear: both;
+	background-color: #3498db;
+	color: #fff;
+	padding: 20px;
 }
