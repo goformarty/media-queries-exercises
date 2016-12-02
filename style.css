@@ -42,12 +42,16 @@ header {
 }
 
 .right {
+	margin: 20px;
+}
+
+.aside {
 	background-color: #e74c3c;
 	color: #fff;
 	padding: 20px;
 }
 
-.right hr {
+.aside hr {
 	width: 30px;
 	height: 2px;
 	background-color: #fff;
@@ -61,4 +65,19 @@ footer {
 	background-color: #3498db;
 	color: #fff;
 	padding: 20px;
+}
+
+
+/* MEDIA QUERIES */
+
+/* FOR MOBILE PHONES */
+[class*=col-] {
+	width: 100%;
+}
+
+/* FOR TABLETS */
+@media only screen and (min-width: 600px;) {
+	.col-m-3 {
+		width: 25%;
+	}
 }
