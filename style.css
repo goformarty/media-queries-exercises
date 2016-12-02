@@ -49,6 +49,7 @@ header {
 	background-color: #e74c3c;
 	color: #fff;
 	padding: 20px;
+	margin-bottom: 20px;
 }
 
 .aside hr {
@@ -76,8 +77,9 @@ footer {
 }
 
 /* FOR TABLETS */
-@media only screen and (min-width: 600px;) {
-	.col-m-3 {
-		width: 25%;
-	}
+@media only screen and (min-width: 600px) {
+	.col-m-3 {width: 25%;}
+	.col-m-6 {width: 50%;}
+	.col-m-9 {width: 75%;}
+	.col-m-12 {width:100%;}
 }
