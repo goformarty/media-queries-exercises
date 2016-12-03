@@ -6,7 +6,6 @@
 
 [class*="col-"] {
 	float: left;
-	padding: 20px;
 }
 
 html {
@@ -20,6 +19,10 @@ h1, h2, h3, h4, h5, h6 {
 header {
 	background: #1abc9c;
 	color: #fff;
+	padding: 20px;
+}
+
+.menu {
 	padding: 20px;
 }
 
@@ -45,12 +48,17 @@ header {
 	text-align: justify;
 }
 
+
+.right {
+	padding: 20px;
+}
+
 .aside {
 	background-color: #e74c3c;
 	color: #fff;
-	padding: 20px;
 	margin-bottom: 20px;
 	text-align: justify;
+	padding: 20px;
 }
 
 .aside hr {
@@ -83,7 +91,6 @@ footer {
 	.col-m-9 {width: 75%;}
 	.col-m-12 {width:100%;}
 
-	#main {padding-left: 0;}
 }
 
 /* FOR DESKTOPS */
@@ -93,5 +100,4 @@ footer {
 	.col-9 {width: 75%;}
 	.col-12 {width:100%;}
 
-	#main {padding-left: 0;}
 }
