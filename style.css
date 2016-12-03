@@ -33,16 +33,16 @@ header {
 .menu li {
 	background-color: #f1c40f;
 	color: #fff;
-	margin: 5px;
 	padding: 15px;
+	margin: 0;
 }
 
 .menu li:hover {
 	background-color: #f39c12; 
 }
 
-.right {
-	margin: 20px;
+#main {
+	text-align: justify;
 }
 
 .aside {
@@ -50,6 +50,7 @@ header {
 	color: #fff;
 	padding: 20px;
 	margin-bottom: 20px;
+	text-align: justify;
 }
 
 .aside hr {
@@ -68,7 +69,6 @@ footer {
 	padding: 20px;
 }
 
-
 /* MEDIA QUERIES */
 
 /* FOR MOBILE PHONES */
@@ -82,4 +82,16 @@ footer {
 	.col-m-6 {width: 50%;}
 	.col-m-9 {width: 75%;}
 	.col-m-12 {width:100%;}
+
+	#main {padding-left: 0;}
+}
+
+/* FOR DESKTOPS */
+@media only screen and (min-width: 992px) {
+	.col-3 {width: 25%;}
+	.col-6 {width: 50%;}
+	.col-9 {width: 75%;}
+	.col-12 {width:100%;}
+
+	#main {padding-left: 0;}
 }
